@@ -77,6 +77,8 @@ Here are some less familiar methods that will be useful:
 - `JSON.parse()`: The argument to `JSON.parse` should be a `String` containing valid JSON. The method will transform the JSON objects into Ruby objects.
     - In order to use this method, we must `require "json"`.
 - `Time.at()`: The argument to `Time.at` should be an `Integer` representing the [Epoch time](https://en.wikipedia.org/wiki/Unix_time). The method will transform the `Integer` into an instance of `Time`.
+
+    You could also try [this online epoch time converter](https://www.epochconverter.com/).
 - You can use [a `Range`](https://www.rubyguides.com/2016/06/ruby-ranges-how-do-they-work/) along with the `[]` method to access a specific set of elements within an `Array`:
 
     ```ruby
