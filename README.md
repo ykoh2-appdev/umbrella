@@ -42,7 +42,7 @@ Here is a suggested outline for your program:
 
 Some handy links:
 
- - [JSONView Chrome extension](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
+ - [Online JSON Viewer](http://jsonviewer.stack.hu/)
  - [Dark Sky forecast at the Merchandise Mart for humans](https://darksky.net/forecast/41.8887,-87.6355/us12/en)
  - Dark Sky forecast at the Merchandise Mart for machines:
  
