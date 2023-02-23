@@ -42,7 +42,10 @@ Here is a suggested outline for your program:
 
 Some handy links:
 
- - [Online JSON Viewer](http://jsonviewer.stack.hu/)
+ - [Hoppscotch](https://hoppscotch.io/): a great, free, online tool that makes it easy to experiment with API calls.
+ - Tools to format/indent JSON to make it easier to read:
+    - [JSONVue Chrome extension](https://chrome.google.com/webstore/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc): this is what I use but you have to install it in Chrome.
+    - [Online JSON Viewer](http://jsonviewer.stack.hu/): you don't have to install anything, you can copy-paste the JSON into it.
  - [Dark Sky forecast at the Merchandise Mart for humans](https://darksky.net/forecast/41.8887,-87.6355/us12/en)
  - Dark Sky forecast at the Merchandise Mart for machines:
  
