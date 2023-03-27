@@ -41,25 +41,25 @@ puts "Your coordinates are #{latitude}, #{longitude}."
 
 # Get the weather from Dark Sky API
 
-dark_sky_key = ENV.fetch("DARK_SKY_KEY")
+pirate_weather_key = ENV.fetch("PIRATE_WEATHER_KEY")
 
-dark_sky_url = "https://api.darksky.net/forecast/#{dark_sky_key}/#{latitude},#{longitude}"
+pirate_weather_url = "https://api.pirateweather.net/forecast/#{pirate_weather_key}/#{latitude},#{longitude}"
 
 # p "Getting weather from:"
-# p dark_sky_url
+# p pirate_weather_url
 
-raw_dark_sky_data = URI.open(dark_sky_url).read
+raw_pirate_weather_data = URI.open(pirate_weather_url).read
 
-parsed_dark_sky_data = JSON.parse(raw_dark_sky_data)
+parsed_pirate_weather_data = JSON.parse(raw_pirate_weather_data)
 
-currently_hash = parsed_dark_sky_data.fetch("currently")
+currently_hash = parsed_pirate_weather_data.fetch("currently")
 
 current_temp = currently_hash.fetch("temperature")
 
 puts "It is currently #{current_temp}°F."
 
 # Some locations around the world do not come with minutely data.
-minutely_hash = parsed_dark_sky_data.fetch("minutely", false)
+minutely_hash = parsed_pirate_weather_data.fetch("minutely", false)
 
 if minutely_hash
   next_hour_summary = minutely_hash.fetch("summary")
@@ -67,7 +67,7 @@ if minutely_hash
   puts "Next hour: #{next_hour_summary}"
 end
 
-hourly_hash = parsed_dark_sky_data.fetch("hourly")
+hourly_hash = parsed_pirate_weather_data.fetch("hourly")
 
 hourly_data_array = hourly_hash.fetch("data")
 

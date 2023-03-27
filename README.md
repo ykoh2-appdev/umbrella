@@ -13,7 +13,7 @@ There is a solution in the file called `solution.rb`.
     ```
 - Before it will work, you need to create two **environment variables** in your Gitpod dashboard.
     - [Read how to create environment variables here.](https://chapters.firstdraft.com/chapters/792)
-    - You need to create env vars called `GMAPS_KEY` and `DARK_SKY_KEY`. You'll find the values to assign in the assignment in Canvas.
+    - You need to create env vars called `GMAPS_KEY` and `PIRATE_WEATHER_KEY`. You'll find the values to assign in the assignment in Canvas.
     - When asked for "Organization/Repository", say `*/*`. This will make the env vars available across all of your workspaces.
     - Don't forget to restart your workspace after the variables have been saved
         - In your [Gitpod dashboard](https://gitpod.io/workspaces), find the workspace.
@@ -42,19 +42,23 @@ Here is a suggested outline for your program:
 
 Some handy links:
 
- - [Hoppscotch](https://hoppscotch.io/): a great, free, online tool that makes it easy to experiment with API calls.
- - Tools to format/indent JSON to make it easier to read:
-    - [JSONVue Chrome extension](https://chrome.google.com/webstore/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc): this is what I use but you have to install it in Chrome.
-    - [Online JSON Viewer](http://jsonviewer.stack.hu/): you don't have to install anything, you can copy-paste the JSON into it.
- - [Dark Sky forecast at the Merchandise Mart for humans](https://darksky.net/forecast/41.8887,-87.6355/us12/en)
- - Dark Sky forecast at the Merchandise Mart for machines:
+ - [Hoppscotch](https://hoppscotch.io/): a great, free, online tool that makes it easy to experiment with API calls and see the JSON reponses nicely formatted.
+ - [How to store secrets securely on Gitpod](https://chapters.firstdraft.com/chapters/792)
+
+### Pirate Weather links
+
+ - [Pirate Wather forecast at the Merchandise Mart for humans](https://merrysky.net/forecast/merchandise%20mart/us)
+ - Pirate Weather forecast at the Merchandise Mart for machines:
  
      ```
-     https://api.darksky.net/forecast/REPLACE_THIS_PATH_SEGMENT_WITH_YOUR_API_TOKEN/41.8887,-87.6355
+     https://api.pirateweather.net/forecast/REPLACE_THIS_PATH_SEGMENT_WITH_YOUR_API_TOKEN/41.8887,-87.6355
      ```
 
      **You'll need an access token to view this page. Find it in the assignment on Canvas.**
- - [Dark Sky API docs](https://darksky.net/dev/docs)
+ - [Pirate Weather API docs](https://docs.pirateweather.net/en/latest/Specification/)
+ 
+### Google Maps links
+
  - [Map of Merchandise Mart for humans](https://goo.gl/maps/2mXdvBnHSGuMq98m6)
  - Map of Merchandise Mart for machines:
 
@@ -64,7 +68,6 @@ Some handy links:
 
     **You'll need an access token to view this page. Find it in the assignment on Canvas.**
  - [Google Geocoding API docs](https://developers.google.com/maps/documentation/geocoding/start)
- - [How to store secrets securely on Gitpod](https://chapters.firstdraft.com/chapters/792)
 
 ## Useful methods
 
