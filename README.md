@@ -1,6 +1,6 @@
 # Umbrella
 
-In this project, we'll write a Ruby program that uses the Google Maps API and Dark Sky API to tell the user whether or not they should carry an umbrella with them when they leave home.
+In this project, we'll write a Ruby program that uses the Google Maps API and Pirate Weather API to tell the user whether or not they should carry an umbrella with them when they leave home.
 
 ## Solution
 
@@ -30,7 +30,7 @@ Here is a suggested outline for your program:
 - Ask the user for their location.
 - Get and store the user's location.
 - Get the user's latitude and longitude from the Google Maps API.
-- Get the weather at the user's coordinates from the Dark Sky API.
+- Get the weather at the user's coordinates from the Pirate Weather API.
 - Display the current temperature and summary of the weather for the next hour.
 - For each of the next twelve hours, check if the precipitation probability is greater than 10%.
     - If so, print a message saying how many hours from now and what the precipitation probability is.

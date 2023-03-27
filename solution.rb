@@ -39,7 +39,7 @@ longitude = location_hash.fetch("lng")
 
 puts "Your coordinates are #{latitude}, #{longitude}."
 
-# Get the weather from Dark Sky API
+# Get the weather from Pirate Weather API
 
 pirate_weather_key = ENV.fetch("PIRATE_WEATHER_KEY")
 
